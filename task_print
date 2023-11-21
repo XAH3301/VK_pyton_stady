@@ -1,0 +1,11 @@
+def is_valid_string(s):
+    if 'a' in s or 'o' in s:
+        if 'i' not in s and 'e' not in s:
+            return True
+    return False
+
+string = input()
+
+result = is_valid_string(string)
+
+print(result)
